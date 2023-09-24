@@ -1,0 +1,178 @@
+body {
+  background: linear-gradient(90deg, white, #7ca3da);
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.login-container h2 {
+  color: rgb(6, 86, 199);
+}
+.form1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 260px;
+  padding: 20px;
+  background: rgb(6, 86, 199);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: white;
+  border: 2px;
+  box-shadow: 1px 2px 2px 3px rgba(100, 148, 211, 0.965);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.username1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#username {
+  position: relative;
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid rgb(7, 2, 70);
+  width: 250px;
+  height: 36px;
+  padding-left: 5px;
+  z-index: 0;
+}
+
+#u1 {
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  z-index: 1;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#email1 {
+  position: relative;
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid rgb(7, 2, 70);
+  width: 250px;
+  height: 36px;
+  padding-left: 5px;
+  z-index: 0;
+}
+
+#e1 {
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  z-index: 1;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.password-input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#password {
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid rgb(7, 2, 70);
+  width: 250px;
+  height: 36px;
+  padding-left: 5px;
+  position: relative;
+  z-index: 0;
+}
+
+#p1 {
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  z-index: 1;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#container {
+  position: relative;
+}
+
+#buttn {
+  position: absolute;
+  left: 208px;
+  bottom: 9.2px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#buttn:hover {
+  background-color: whitesmoke;
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
+
+#loginbutton {
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#loginbutton:hover {
+  background-color: whitesmoke;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.alert1 {
+  position: absolute;
+  font-size: 10px;
+  color: rgb(6, 86, 199);
+  top: 270px;
+  justify-self: flex-start;
+}
+
+.alert2 {
+  position: absolute;
+  font-size: 10px;
+  color: rgb(6, 86, 199);
+  top: 330px;
+}
+
+.alert3 {
+  position: absolute;
+  font-size: 10px;
+  color: rgb(6, 86, 199);
+  top: 390px;
+}
+
+/* #icon {
+  width: 200px;
+  border-radius: 75%;
+} */

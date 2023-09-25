@@ -87,13 +87,17 @@ function Login() {
     return value.length >= 5;
   };
 
+  const isValidPassword = (value) => {
+    return value.length >= 6;
+  };
+
   const handleLogin = () => {
     if (!isValidUsername(username)) {
       setUnamecheck("Invalid username! At least 5 characters.");
     } else if (!isValidEmail(email)) {
       setEmailcheck("Invalid email. Please enter a valid email address");
-    } else if (password === "") {
-      setPcheck("Password cannot be left empty.");
+    } else if (!isValidPassword(password)) {
+      setPcheck("Invalid Password! Atleast 6 characters.");
     } else {
       alert(
         `Logged in with Username: ${username}, Email: ${email}, and Password: ${password}`

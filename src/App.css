@@ -2,6 +2,7 @@ body {
   background: linear-gradient(90deg, white, #7ca3da);
 }
 
+
 .login-container {
   display: flex;
   align-items: center;
@@ -172,7 +173,4 @@ body {
   top: 390px;
 }
 
-/* #icon {
-  width: 200px;
-  border-radius: 75%;
-} */
+
